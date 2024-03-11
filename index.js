@@ -161,24 +161,6 @@ const preguntasMezcladas = [
     ],
     correcta: 0
   },
-  {
-    pregunta: "¿Cuál es el estadio principal del Club Olimpia?",
-    respuestas: [
-      "Estadio Defensores del Chaco",
-      "Estadio Manuel Ferreira",
-      "Estadio Luis Alfonso Giagni"
-    ],
-    correcta: 1
-  },
-  {
-    pregunta: "¿En qué año ganó el Club Olimpia su primer título internacional?",
-    respuestas: [
-      "1979",
-      "1980",
-      "1972"
-    ],
-    correcta: 1
-  }
 ];
 
 
