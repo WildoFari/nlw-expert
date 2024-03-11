@@ -1,6 +1,6 @@
 const preguntasMezcladas = [
   {
-    pregunta: "¿Cuál es el lenguaje de programación principal para el desarrollo de aplicaciones Android?",
+    pregunta: "¿Cuál es el lenguaje de programación principal para el desarrollo de aplicaciones Android.?",
     respuestas: [
       "Java",
       "Swift",
