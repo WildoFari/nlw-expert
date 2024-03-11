@@ -1,95 +1,96 @@
-const preguntas = [
+const preguntasOlimpia = [
   {
-    pregunta: "¿En qué año fue fundado el Club Guaraní?",
+    pregunta: "¿En qué año fue fundado el Club Olimpia?",
     respuestas: [
+      "1902",
       "1903",
-      "1912",
-      "1924"
+      "1904"
     ],
     correcta: 0
   },
   {
-    pregunta: "¿Cuál fue el primer presidente del Club Guaraní?",
-    respuestas: [
-      "Manuel Quevedo",
-      "Vicente Fretes",
-      "César Jara"
-    ],
-    correcta: 1
-  },
-  {
-    pregunta: "¿Cuál es el apodo del Club Guaraní?",
+    pregunta: "¿Cuál es el apodo del Club Olimpia?",
     respuestas: [
       "El Ciclón",
-      "El Aborigen",
-      "El Decano"
-    ],
-    correcta: 1
-  },
-  {
-    pregunta: "¿En qué año ganó el Club Guaraní su primer título de liga?",
-    respuestas: [
-      "1906",
-      "1912",
-      "1921"
+      "El Decano",
+      "El Rey de Copas"
     ],
     correcta: 2
   },
   {
-    pregunta: "¿Cuál es el máximo goleador histórico del Club Guaraní?",
+    pregunta: "¿En qué año ganó el Club Olimpia su primer título internacional?",
     respuestas: [
-      "José Saturnino Cardozo",
-      "Juan José Morales",
-      "Néstor Bareiro"
-    ],
-    correcta: 0
-  },
-  {
-    pregunta: "¿Quién es conocido como el 'Mago' y jugó en el Club Guaraní?",
-    respuestas: [
-      "Roberto 'Toro' Acuña",
-      "Carlos Bonet",
-      "Julio Dos Santos"
-    ],
-    correcta: 0
-  },
-  {
-    pregunta: "¿En qué año el Club Guaraní alcanzó las semifinales de la Copa Libertadores?",
-    respuestas: [
-      "1966",
-      "1978",
-      "2015"
-    ],
-    correcta: 2
-  },
-  {
-    pregunta: "¿Cuál es el estadio principal del Club Guaraní?",
-    respuestas: [
-      "Estadio Feliciano Cáceres",
-      "Estadio Rogelio Livieres",
-      "Estadio Defensores del Chaco"
+      "1979",
+      "1980",
+      "1972"
     ],
     correcta: 1
   },
   {
-    pregunta: "¿Cuál es el color principal de la camiseta del Club Guaraní?",
+    pregunta: "¿Cuántas veces ha ganado el Club Olimpia la Copa Libertadores de América?",
     respuestas: [
-      "Rojo y blanco",
-      "Amarillo y negro",
-      "Azul y negro"
+      "2 veces",
+      "3 veces",
+      "4 veces"
+    ],
+    correcta: 2
+  },
+  {
+    pregunta: "¿Quién es el máximo goleador histórico del Club Olimpia?",
+    respuestas: [
+      "Roque Santa Cruz",
+      "Osvaldo Domínguez Dibb",
+      "Norberto Méndez"
+    ],
+    correcta: 1
+  },
+  {
+    pregunta: "¿Cuál es el estadio principal del Club Olimpia?",
+    respuestas: [
+      "Estadio Defensores del Chaco",
+      "Estadio Manuel Ferreira",
+      "Estadio Luis Alfonso Giagni"
+    ],
+    correcta: 1
+  },
+  {
+    pregunta: "¿En qué año el Club Olimpia alcanzó la final de la Copa Intercontinental?",
+    respuestas: [
+      "1979",
+      "1990",
+      "2002"
+    ],
+    correcta: 2
+  },
+  {
+    pregunta: "¿Quién fue el entrenador del Club Olimpia en la final de la Copa Libertadores 1979?",
+    respuestas: [
+      "Luis Cubilla",
+      "Ernesto Díaz",
+      "Manuel Ferreira"
     ],
     correcta: 0
   },
   {
-    pregunta: "¿En qué ciudad tiene su sede el Club Guaraní?",
+    pregunta: "¿Cuál es el color principal de la camiseta del Club Olimpia?",
+    respuestas: [
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ],
+    correcta: 0
+  },
+  {
+    pregunta: "¿En qué ciudad tiene su sede el Club Olimpia?",
     respuestas: [
       "Asunción",
-      "Capiatá",
+      "Encarnación",
       "Luque"
     ],
     correcta: 0
   }
 ];
+
 
   
   const quiz = document.querySelector('#quiz')
