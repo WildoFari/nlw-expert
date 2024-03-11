@@ -1,183 +1,138 @@
 const preguntas = [
   {
-      pregunta: "¿En qué año fue fundado el Club Guaraní?",
+      pregunta: "¿En qué año fue fundado el Club Olimpia?",
       respuestas: [
-          "1903",
+          "1902",
           "1904",
           "1906"
       ],
       correcta: 0
   },
   {
-      pregunta: "¿Cuál fue el primer título nacional obtenido por el Club Guaraní?",
+      pregunta: "¿Cuántas veces ha ganado el Club Olimpia la Copa Libertadores de América?",
       respuestas: [
-          "Campeonato Paraguayo",
-          "Copa Paraguay",
-          "Torneo Apertura"
+          "2 veces",
+          "3 veces",
+          "4 veces"
       ],
       correcta: 1
   },
   {
-      pregunta: "¿Cuál es el apodo tradicional del Club Guaraní?",
+      pregunta: "¿Quién fue el máximo goleador en la historia del Club Olimpia?",
       respuestas: [
-          "Los Caciques",
-          "Los Aurinegros",
-          "Los Aborígenes"
-      ],
-      correcta: 0
-  },
-  {
-      pregunta: "¿En qué año el Club Guaraní se coronó campeón invicto del Campeonato Paraguayo?",
-      respuestas: [
-          "1949",
-          "1956",
-          "1964"
+          "Roque Santa Cruz",
+          "Osvaldo Domínguez Dibb",
+          "Saturnino Arrúa"
       ],
       correcta: 2
   },
   {
-      pregunta: "¿Cuál fue el primer estadio del Club Guaraní?",
+      pregunta: "¿En qué año el Club Olimpia alcanzó la final de la Copa Intercontinental?",
       respuestas: [
-          "Estadio Rogelio Livieres",
-          "Estadio Dos Bocas",
-          "Estadio Para Uno"
+          "1979",
+          "1990",
+          "2002"
       ],
       correcta: 1
   },
   {
-      pregunta: "¿Quién fue el máximo goleador histórico del Club Guaraní?",
+      pregunta: "¿Quién fue el primer presidente del Club Olimpia?",
       respuestas: [
-          "Tiburcio Ortíz",
-          "Juan Bautista Agüero",
-          "Carlos Gamarra"
-      ],
-      correcta: 0
-  },
-  {
-      pregunta: "¿En qué año el Club Guaraní disputó su primera Copa Libertadores?",
-      respuestas: [
-          "1964",
-          "1978",
-          "1982"
-      ],
-      correcta: 0
-  },
-  {
-      pregunta: "¿Cuál es el clásico rival del Club Guaraní?",
-      respuestas: [
-          "Cerro Porteño",
-          "Olimpia",
-          "Libertad"
-      ],
-      correcta: 0
-  },
-  {
-      pregunta: "¿Quién es el único entrenador que ha dirigido al Club Guaraní en más de una ocasión en torneos nacionales?",
-      respuestas: [
-          "Gustavo Florentín",
-          "Fernando Jubero",
-          "Jorge Amado Nunes"
-      ],
-      correcta: 2
-  },
-  {
-      pregunta: "¿En qué año el Club Guaraní se consagró campeón de la División Intermedia?",
-      respuestas: [
-          "1995",
-          "2002",
-          "2010"
+          "Juan Alberto Acosta",
+          "Manuel Ferreira",
+          "José Benítez"
       ],
       correcta: 1
   },
   {
-      pregunta: "¿Quién fue el primer presidente del Club Guaraní?",
+      pregunta: "¿Cuál es el récord de partidos consecutivos invictos del Club Olimpia?",
       respuestas: [
-          "Juan Aurelio Benítez",
-          "Juan Manuel Bazán",
-          "Manuel Pintos Saldívar"
+          "48 partidos",
+          "56 partidos",
+          "64 partidos"
+      ],
+      correcta: 2
+  },
+  {
+      pregunta: "¿Cuál fue el primer título internacional ganado por el Club Olimpia?",
+      respuestas: [
+          "Copa Libertadores de América",
+          "Copa Interamericana",
+          "Copa Sudamericana"
       ],
       correcta: 0
   },
   {
-      pregunta: "¿Cuál es el récord de asistencia en un partido del Club Guaraní?",
+      pregunta: "¿En qué año el Club Olimpia ganó su primer título de liga en Paraguay?",
       respuestas: [
-          "50,000 espectadores",
-          "60,000 espectadores",
-          "70,000 espectadores"
+          "1912",
+          "1915",
+          "1918"
       ],
       correcta: 2
   },
   {
-      pregunta: "¿Cuál es la denominación oficial del estadio actual del Club Guaraní?",
+      pregunta: "¿Quién fue el entrenador del Club Olimpia en la final de la Copa Libertadores 1979?",
       respuestas: [
-          "Estadio Rogelio Livieres",
-          "Estadio Dos Bocas",
-          "Estadio Dr. Nicolás Leoz"
+          "Luis Cubilla",
+          "Nery Pumpido",
+          "Miguel Ángel Russo"
+      ],
+      correcta: 0
+  },
+  {
+      pregunta: "¿Cuál fue el resultado del primer partido oficial del Club Olimpia?",
+      respuestas: [
+          "Victoria por 2-1",
+          "Empate 0-0",
+          "Derrota por 3-2"
       ],
       correcta: 2
   },
   {
-      pregunta: "¿En qué año el Club Guaraní ganó su primer título internacional?",
+      pregunta: "¿En qué año el Club Olimpia inauguró su estadio, el Manuel Ferreira?",
       respuestas: [
-          "1965",
-          "1966",
-          "1968"
+          "1922",
+          "1924",
+          "1926"
       ],
       correcta: 1
   },
   {
-      pregunta: "¿Quién es el jugador con más partidos disputados en la historia del Club Guaraní?",
+      pregunta: "¿Cuántas finales de la Copa Libertadores ha disputado el Club Olimpia?",
       respuestas: [
-          "Juan Bautista Agüero",
-          "José Torrente",
-          "Edgar Aranda"
+          "5 finales",
+          "6 finales",
+          "7 finales"
+      ],
+      correcta: 2
+  },
+  {
+      pregunta: "¿Quién es el jugador con más partidos disputados en la historia del Club Olimpia?",
+      respuestas: [
+          "Saturnino Arrúa",
+          "Roberto Perfumo",
+          "Juan Bautista Agüero"
       ],
       correcta: 0
   },
   {
-      pregunta: "¿Cuál es la mayor goleada registrada a favor del Club Guaraní en torneos nacionales?",
+      pregunta: "¿Cuál es la mayor goleada registrada en la historia del Club Olimpia en torneos nacionales?",
       respuestas: [
           "9-0",
-          "10-1",
-          "12-2"
+          "10-0",
+          "12-0"
       ],
       correcta: 1
   },
   {
-      pregunta: "¿En qué año el Club Guaraní obtuvo su primer título en la era profesional del fútbol paraguayo?",
+      pregunta: "¿Cuál es el lenguaje de programación utilizado para desarrollar aplicaciones móviles nativas en iOS?",
       respuestas: [
-          "1949",
-          "1950",
-          "1951"
-      ],
-      correcta: 1
-  },
-  {
-      pregunta: "¿Quién fue el primer jugador del Club Guaraní en ser convocado a la selección paraguaya?",
-      respuestas: [
-          "Cristóbal Maldonado",
-          "Fernando Jubero",
-          "Alberto Espínola"
+          "Swift",
+          "Java",
+          "Objective-C"
       ],
       correcta: 0
-  },
-  {
-      pregunta: "¿Cuál es el récord de goles marcados por el Club Guaraní en una sola edición de la Copa Libertadores?",
-      respuestas: [
-          "25 goles",
-          "29 goles",
-          "32 goles"
-      ],
-      correcta: 2
-  },
-  {
-      pregunta: "¿Cuál fue el primer título internacional ganado por el Club Guaraní?",
-      respuestas: [
-          "Copa Sudamericana",
-          "Copa Interamericana",
-          "Copa Ganadores de Copa"
-      ],
-      correcta: 1
   }
 ];
 
