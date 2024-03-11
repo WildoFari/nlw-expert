@@ -1,48 +1,165 @@
-const preguntasOlimpia = [
+const preguntasMezcladas = [
   {
-    pregunta: "¿En qué año fue fundado el Club Olimpia?",
+    pregunta: "¿Cuál es el lenguaje de programación principal para el desarrollo de aplicaciones Android?",
     respuestas: [
-      "1902",
-      "1903",
-      "1904"
+      "Java",
+      "Swift",
+      "JavaScript"
     ],
     correcta: 0
   },
   {
-    pregunta: "¿Cuál es el apodo del Club Olimpia?",
+    pregunta: "¿Qué es React Native?",
     respuestas: [
-      "El Ciclón",
-      "El Decano",
-      "El Rey de Copas"
-    ],
-    correcta: 2
-  },
-  {
-    pregunta: "¿En qué año ganó el Club Olimpia su primer título internacional?",
-    respuestas: [
-      "1979",
-      "1980",
-      "1972"
+      "Un framework para desarrollar aplicaciones web",
+      "Un framework para desarrollar aplicaciones móviles multiplataforma",
+      "Un sistema de gestión de bases de datos"
     ],
     correcta: 1
   },
   {
-    pregunta: "¿Cuántas veces ha ganado el Club Olimpia la Copa Libertadores de América?",
+    pregunta: "¿Cuál de los siguientes NO es un lenguaje de programación para frontend?",
     respuestas: [
-      "2 veces",
-      "3 veces",
-      "4 veces"
+      "Java",
+      "JavaScript",
+      "HTML"
+    ],
+    correcta: 0
+  },
+  {
+    pregunta: "¿Cuál es el lenguaje de programación utilizado para desarrollar aplicaciones móviles nativas en iOS?",
+    respuestas: [
+      "Swift",
+      "Java",
+      "Objective-C"
     ],
     correcta: 2
   },
   {
-    pregunta: "¿Quién es el máximo goleador histórico del Club Olimpia?",
+    pregunta: "¿Qué es Firebase?",
     respuestas: [
-      "Roque Santa Cruz",
-      "Osvaldo Domínguez Dibb",
-      "Norberto Méndez"
+      "Un sistema operativo para dispositivos móviles",
+      "Una plataforma de desarrollo de aplicaciones móviles de Google",
+      "Un lenguaje de programación para backend"
     ],
     correcta: 1
+  },
+  {
+    pregunta: "¿Cuál es el propósito principal de CSS en el desarrollo web?",
+    respuestas: [
+      "Definir la estructura y el contenido de una página web",
+      "Definir el comportamiento dinámico de una página web",
+      "Estilizar la apariencia de una página web"
+    ],
+    correcta: 2
+  },
+  {
+    pregunta: "¿Qué significa HTML?",
+    respuestas: [
+      "Hypertext Markup Language",
+      "Hyperlink and Text Markup Language",
+      "Hyper Transfer Markup Language"
+    ],
+    correcta: 0
+  },
+  {
+    pregunta: "¿Cuál es un framework popular para el desarrollo de aplicaciones móviles híbridas?",
+    respuestas: [
+      "React Native",
+      "Flutter",
+      "Ionic"
+    ],
+    correcta: 2
+  },
+  {
+    pregunta: "¿Qué es una API REST?",
+    respuestas: [
+      "Una interfaz para interactuar con una base de datos relacional",
+      "Un protocolo de transferencia de hipertexto",
+      "Un estilo de arquitectura para el desarrollo de APIs basado en HTTP"
+    ],
+    correcta: 2
+  },
+  {
+    pregunta: "¿Cuál es un servicio de alojamiento de repositorios de código fuente ampliamente utilizado?",
+    respuestas: [
+      "GitHub",
+      "Dropbox",
+      "Google Drive"
+    ],
+    correcta: 0
+  },
+  {
+    pregunta: "¿Cuál de los siguientes NO es un sistema operativo móvil?",
+    respuestas: [
+      "Android",
+      "iOS",
+      "Windows"
+    ],
+    correcta: 2
+  },
+  {
+    pregunta: "¿Cuál es el lenguaje de programación utilizado para el desarrollo de aplicaciones iOS?",
+    respuestas: [
+      "Objective-C",
+      "Swift",
+      "JavaScript"
+    ],
+    correcta: 1
+  },
+  {
+    pregunta: "¿Cuál es un banco de datos NoSQL?",
+    respuestas: [
+      "MySQL",
+      "MongoDB",
+      "PostgreSQL"
+    ],
+    correcta: 1
+  },
+  {
+    pregunta: "¿Qué es un sistema de control de versiones?",
+    respuestas: [
+      "Un sistema para gestionar bases de datos",
+      "Un sistema para controlar el acceso a los recursos de una aplicación",
+      "Un sistema para gestionar cambios en el código fuente"
+    ],
+    correcta: 2
+  },
+  {
+    pregunta: "¿Qué es un APK en el contexto de desarrollo móvil?",
+    respuestas: [
+      "Un archivo de configuración de la aplicación",
+      "Un archivo ejecutable para Android",
+      "Un formato de archivo para bases de datos"
+    ],
+    correcta: 1
+  },
+  {
+    pregunta: "¿Cuál es un lenguaje de programación popular para el desarrollo de aplicaciones bancarias?",
+    respuestas: [
+      "JavaScript",
+      "Java",
+      "Python"
+    ],
+    correcta: 1
+  },
+  {
+    pregunta: "¿Qué es GraphQL?",
+    respuestas: [
+      "Un lenguaje de consultas para APIs",
+      "Una base de datos relacional",
+      "Un sistema operativo móvil"
+    ],
+    correcta: 0
+  },
+  {
+    pregunta: "¿Cuál es un SDK utilizado en el desarrollo de aplicaciones móviles?",
+    respuestas: [
+      "Software Development Kit",
+      "System Development Kit",
+      "Script Development Kit"
+    ],
+    correcta: 0
   },
   {
     pregunta: "¿Cuál es el estadio principal del Club Olimpia?",
@@ -54,44 +171,20 @@ const preguntasOlimpia = [
     correcta: 1
   },
   {
-    pregunta: "¿En qué año el Club Olimpia alcanzó la final de la Copa Intercontinental?",
+    pregunta: "¿En qué año ganó el Club Olimpia su primer título internacional?",
     respuestas: [
       "1979",
-      "1990",
-      "2002"
+      "1980",
+      "1972"
     ],
-    correcta: 2
-  },
-  {
-    pregunta: "¿Quién fue el entrenador del Club Olimpia en la final de la Copa Libertadores 1979?",
-    respuestas: [
-      "Luis Cubilla",
-      "Ernesto Díaz",
-      "Manuel Ferreira"
-    ],
-    correcta: 0
-  },
-  {
-    pregunta: "¿Cuál es el color principal de la camiseta del Club Olimpia?",
-    respuestas: [
-      "Blanco",
-      "Negro",
-      "Rojo"
-    ],
-    correcta: 0
-  },
-  {
-    pregunta: "¿En qué ciudad tiene su sede el Club Olimpia?",
-    respuestas: [
-      "Asunción",
-      "Encarnación",
-      "Luque"
-    ],
-    correcta: 0
+    correcta: 1
   }
 ];
 
-  
+
+
+
+
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
   
