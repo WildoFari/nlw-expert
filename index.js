@@ -1,4 +1,4 @@
-const preguntasMezcladas = [
+const preguntas = [
   {
     pregunta: "¿Cuál es el lenguaje de programación principal para el desarrollo de aplicaciones Android.?",
     respuestas: [
