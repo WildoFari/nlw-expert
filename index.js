@@ -1,95 +1,96 @@
 const preguntas = [
-    {
-      pregunta: "¿Qué es JavaScript?",
-      respuestas: [
-        "Un lenguaje de programación para diseñar estructuras de base de datos",
-        "Un lenguaje de programación de alto nivel para crear contenido web dinámico",
-        "Un lenguaje de marcado para definir la estructura y el contenido de una página web"
-      ],
-      correcta: 1
-    },
-    {
-      pregunta: "¿Cuál es la sintaxis correcta para declarar una variable en JavaScript?",
-      respuestas: [
-        "var myVar = 5;",
-        "variable myVar = 5;",
-        "myVar = 5;"
-      ],
-      correcta: 0
-    },
-    {
-      pregunta: "¿Qué método se utiliza para imprimir en la consola en JavaScript?",
-      respuestas: [
-        "console.log()",
-        "print()",
-        "log.console()"
-      ],
-      correcta: 0
-    },
-    {
-      pregunta: "¿Cuál de las siguientes NO es una estructura de control en JavaScript?",
-      respuestas: [
-        "if-else",
-        "for-loop",
-        "select-case"
-      ],
-      correcta: 2
-    },
-    {
-      pregunta: "¿Qué tipo de datos se utiliza para almacenar texto en JavaScript?",
-      respuestas: [
-        "cadena",
-        "número",
-        "booleano"
-      ],
-      correcta: 0
-    },
-    {
-      pregunta: "¿Cuál es la función de JavaScript que se utiliza para modificar el contenido de un elemento HTML?",
-      respuestas: [
-        "changeText()",
-        "innerHTML()",
-        "setText()"
-      ],
-      correcta: 1
-    },
-    {
-      pregunta: "¿Qué operador se utiliza para concatenar cadenas en JavaScript?",
-      respuestas: [
-        "+",
-        "&",
-        "*"
-      ],
-      correcta: 0
-    },
-    {
-      pregunta: "¿Cuál es el valor de la expresión '10 % 3'?",
-      respuestas: [
-        "0",
-        "1",
-        "3"
-      ],
-      correcta: 1
-    },
-    {
-      pregunta: "¿Cuál es el tipo de datos que representa un valor verdadero o falso en JavaScript?",
-      respuestas: [
-        "string",
-        "boolean",
-        "number"
-      ],
-      correcta: 1
-    },
-    {
-      pregunta: "¿Qué método se utiliza para convertir una cadena a un número en JavaScript?",
-      respuestas: [
-        "parseInt()",
-        "convertToInt()",
-        "toNumber()"
-      ],
-      correcta: 0
-    }
-  ];
+  {
+    pregunta: "¿En qué año fue fundado el Club Guaraní?",
+    respuestas: [
+      "1903",
+      "1912",
+      "1924"
+    ],
+    correcta: 0
+  },
+  {
+    pregunta: "¿Cuál fue el primer presidente del Club Guaraní?",
+    respuestas: [
+      "Manuel Quevedo",
+      "Vicente Fretes",
+      "César Jara"
+    ],
+    correcta: 1
+  },
+  {
+    pregunta: "¿Cuál es el apodo del Club Guaraní?",
+    respuestas: [
+      "El Ciclón",
+      "El Aborigen",
+      "El Decano"
+    ],
+    correcta: 1
+  },
+  {
+    pregunta: "¿En qué año ganó el Club Guaraní su primer título de liga?",
+    respuestas: [
+      "1906",
+      "1912",
+      "1921"
+    ],
+    correcta: 2
+  },
+  {
+    pregunta: "¿Cuál es el máximo goleador histórico del Club Guaraní?",
+    respuestas: [
+      "José Saturnino Cardozo",
+      "Juan José Morales",
+      "Néstor Bareiro"
+    ],
+    correcta: 0
+  },
+  {
+    pregunta: "¿Quién es conocido como el 'Mago' y jugó en el Club Guaraní?",
+    respuestas: [
+      "Roberto 'Toro' Acuña",
+      "Carlos Bonet",
+      "Julio Dos Santos"
+    ],
+    correcta: 0
+  },
+  {
+    pregunta: "¿En qué año el Club Guaraní alcanzó las semifinales de la Copa Libertadores?",
+    respuestas: [
+      "1966",
+      "1978",
+      "2015"
+    ],
+    correcta: 2
+  },
+  {
+    pregunta: "¿Cuál es el estadio principal del Club Guaraní?",
+    respuestas: [
+      "Estadio Feliciano Cáceres",
+      "Estadio Rogelio Livieres",
+      "Estadio Defensores del Chaco"
+    ],
+    correcta: 1
+  },
+  {
+    pregunta: "¿Cuál es el color principal de la camiseta del Club Guaraní?",
+    respuestas: [
+      "Rojo y blanco",
+      "Amarillo y negro",
+      "Azul y negro"
+    ],
+    correcta: 0
+  },
+  {
+    pregunta: "¿En qué ciudad tiene su sede el Club Guaraní?",
+    respuestas: [
+      "Asunción",
+      "Capiatá",
+      "Luque"
+    ],
+    correcta: 0
+  }
+];
+
   
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
