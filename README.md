@@ -1,2 +1,8 @@
 # nlw-expert
-Primer evento
+
+## Tecnologias utilizadas
+
+- HTML
+- CSS
+- JavaScript
+- GitHub
