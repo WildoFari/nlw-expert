@@ -1,166 +1,184 @@
 const preguntas = [
   {
-    pregunta: "¿Cuál es el lenguaje de programación principal para el desarrollo de aplicaciones Android?",
-    respuestas: [
-      "Java",
-      "Swift",
-      "JavaScript"
-    ],
-    correcta: 0
+      pregunta: "¿En qué año fue fundado el Club Guaraní?",
+      respuestas: [
+          "1903",
+          "1904",
+          "1906"
+      ],
+      correcta: 0
   },
   {
-    pregunta: "¿Qué es React Native?",
-    respuestas: [
-      "Un framework para desarrollar aplicaciones web",
-      "Un framework para desarrollar aplicaciones móviles multiplataforma",
-      "Un sistema de gestión de bases de datos"
-    ],
-    correcta: 1
+      pregunta: "¿Cuál fue el primer título nacional obtenido por el Club Guaraní?",
+      respuestas: [
+          "Campeonato Paraguayo",
+          "Copa Paraguay",
+          "Torneo Apertura"
+      ],
+      correcta: 1
   },
   {
-    pregunta: "¿Cuál de los siguientes NO es un lenguaje de programación para frontend?",
-    respuestas: [
-      "Java",
-      "JavaScript",
-      "HTML"
-    ],
-    correcta: 0
+      pregunta: "¿Cuál es el apodo tradicional del Club Guaraní?",
+      respuestas: [
+          "Los Caciques",
+          "Los Aurinegros",
+          "Los Aborígenes"
+      ],
+      correcta: 0
   },
   {
-    pregunta: "¿Cuál es el lenguaje de programación utilizado para desarrollar aplicaciones móviles nativas en iOS?",
-    respuestas: [
-      "Swift",
-      "Java",
-      "Objective-C"
-    ],
-    correcta: 2
+      pregunta: "¿En qué año el Club Guaraní se coronó campeón invicto del Campeonato Paraguayo?",
+      respuestas: [
+          "1949",
+          "1956",
+          "1964"
+      ],
+      correcta: 2
   },
   {
-    pregunta: "¿Qué es Firebase?",
-    respuestas: [
-      "Un sistema operativo para dispositivos móviles",
-      "Una plataforma de desarrollo de aplicaciones móviles de Google",
-      "Un lenguaje de programación para backend"
-    ],
-    correcta: 1
+      pregunta: "¿Cuál fue el primer estadio del Club Guaraní?",
+      respuestas: [
+          "Estadio Rogelio Livieres",
+          "Estadio Dos Bocas",
+          "Estadio Para Uno"
+      ],
+      correcta: 1
   },
   {
-    pregunta: "¿Cuál es el propósito principal de CSS en el desarrollo web?",
-    respuestas: [
-      "Definir la estructura y el contenido de una página web",
-      "Definir el comportamiento dinámico de una página web",
-      "Estilizar la apariencia de una página web"
-    ],
-    correcta: 2
+      pregunta: "¿Quién fue el máximo goleador histórico del Club Guaraní?",
+      respuestas: [
+          "Tiburcio Ortíz",
+          "Juan Bautista Agüero",
+          "Carlos Gamarra"
+      ],
+      correcta: 0
   },
   {
-    pregunta: "¿Qué significa HTML?",
-    respuestas: [
-      "Hypertext Markup Language",
-      "Hyperlink and Text Markup Language",
-      "Hyper Transfer Markup Language"
-    ],
-    correcta: 0
+      pregunta: "¿En qué año el Club Guaraní disputó su primera Copa Libertadores?",
+      respuestas: [
+          "1964",
+          "1978",
+          "1982"
+      ],
+      correcta: 0
   },
   {
-    pregunta: "¿Cuál es un framework popular para el desarrollo de aplicaciones móviles híbridas?",
-    respuestas: [
-      "React Native",
-      "Flutter",
-      "Ionic"
-    ],
-    correcta: 2
+      pregunta: "¿Cuál es el clásico rival del Club Guaraní?",
+      respuestas: [
+          "Cerro Porteño",
+          "Olimpia",
+          "Libertad"
+      ],
+      correcta: 0
   },
   {
-    pregunta: "¿Qué es una API REST?",
-    respuestas: [
-      "Una interfaz para interactuar con una base de datos relacional",
-      "Un protocolo de transferencia de hipertexto",
-      "Un estilo de arquitectura para el desarrollo de APIs basado en HTTP"
-    ],
-    correcta: 2
+      pregunta: "¿Quién es el único entrenador que ha dirigido al Club Guaraní en más de una ocasión en torneos nacionales?",
+      respuestas: [
+          "Gustavo Florentín",
+          "Fernando Jubero",
+          "Jorge Amado Nunes"
+      ],
+      correcta: 2
   },
   {
-    pregunta: "¿Cuál es un servicio de alojamiento de repositorios de código fuente ampliamente utilizado?",
-    respuestas: [
-      "GitHub",
-      "Dropbox",
-      "Google Drive"
-    ],
-    correcta: 0
+      pregunta: "¿En qué año el Club Guaraní se consagró campeón de la División Intermedia?",
+      respuestas: [
+          "1995",
+          "2002",
+          "2010"
+      ],
+      correcta: 1
   },
   {
-    pregunta: "¿Cuál de los siguientes NO es un sistema operativo móvil?",
-    respuestas: [
-      "Android",
-      "iOS",
-      "Windows"
-    ],
-    correcta: 2
+      pregunta: "¿Quién fue el primer presidente del Club Guaraní?",
+      respuestas: [
+          "Juan Aurelio Benítez",
+          "Juan Manuel Bazán",
+          "Manuel Pintos Saldívar"
+      ],
+      correcta: 0
   },
   {
-    pregunta: "¿Cuál es el lenguaje de programación utilizado para el desarrollo de aplicaciones iOS?",
-    respuestas: [
-      "Objective-C",
-      "Swift",
-      "JavaScript"
-    ],
-    correcta: 1
+      pregunta: "¿Cuál es el récord de asistencia en un partido del Club Guaraní?",
+      respuestas: [
+          "50,000 espectadores",
+          "60,000 espectadores",
+          "70,000 espectadores"
+      ],
+      correcta: 2
   },
   {
-    pregunta: "¿Cuál es un banco de datos NoSQL?",
-    respuestas: [
-      "MySQL",
-      "MongoDB",
-      "PostgreSQL"
-    ],
-    correcta: 1
+      pregunta: "¿Cuál es la denominación oficial del estadio actual del Club Guaraní?",
+      respuestas: [
+          "Estadio Rogelio Livieres",
+          "Estadio Dos Bocas",
+          "Estadio Dr. Nicolás Leoz"
+      ],
+      correcta: 2
   },
   {
-    pregunta: "¿Qué es un sistema de control de versiones?",
-    respuestas: [
-      "Un sistema para gestionar bases de datos",
-      "Un sistema para controlar el acceso a los recursos de una aplicación",
-      "Un sistema para gestionar cambios en el código fuente"
-    ],
-    correcta: 2
+      pregunta: "¿En qué año el Club Guaraní ganó su primer título internacional?",
+      respuestas: [
+          "1965",
+          "1966",
+          "1968"
+      ],
+      correcta: 1
   },
   {
-    pregunta: "¿Qué es un APK en el contexto de desarrollo móvil?",
-    respuestas: [
-      "Un archivo de configuración de la aplicación",
-      "Un archivo ejecutable para Android",
-      "Un formato de archivo para bases de datos"
-    ],
-    correcta: 1
+      pregunta: "¿Quién es el jugador con más partidos disputados en la historia del Club Guaraní?",
+      respuestas: [
+          "Juan Bautista Agüero",
+          "José Torrente",
+          "Edgar Aranda"
+      ],
+      correcta: 0
   },
   {
-    pregunta: "¿Cuál es un lenguaje de programación popular para el desarrollo de aplicaciones bancarias?",
-    respuestas: [
-      "JavaScript",
-      "Java",
-      "Python"
-    ],
-    correcta: 1
+      pregunta: "¿Cuál es la mayor goleada registrada a favor del Club Guaraní en torneos nacionales?",
+      respuestas: [
+          "9-0",
+          "10-1",
+          "12-2"
+      ],
+      correcta: 1
   },
   {
-    pregunta: "¿Qué es GraphQL?",
-    respuestas: [
-      "Un lenguaje de consultas para APIs",
-      "Una base de datos relacional",
-      "Un sistema operativo móvil"
-    ],
-    correcta: 0
+      pregunta: "¿En qué año el Club Guaraní obtuvo su primer título en la era profesional del fútbol paraguayo?",
+      respuestas: [
+          "1949",
+          "1950",
+          "1951"
+      ],
+      correcta: 1
   },
   {
-    pregunta: "¿Cuál es un SDK utilizado en el desarrollo de aplicaciones móviles?",
-    respuestas: [
-      "Software Development Kit",
-      "System Development Kit",
-      "Script Development Kit"
-    ],
-    correcta: 0
+      pregunta: "¿Quién fue el primer jugador del Club Guaraní en ser convocado a la selección paraguaya?",
+      respuestas: [
+          "Cristóbal Maldonado",
+          "Fernando Jubero",
+          "Alberto Espínola"
+      ],
+      correcta: 0
   },
+  {
+      pregunta: "¿Cuál es el récord de goles marcados por el Club Guaraní en una sola edición de la Copa Libertadores?",
+      respuestas: [
+          "25 goles",
+          "29 goles",
+          "32 goles"
+      ],
+      correcta: 2
+  },
+  {
+      pregunta: "¿Cuál fue el primer título internacional ganado por el Club Guaraní?",
+      respuestas: [
+          "Copa Sudamericana",
+          "Copa Interamericana",
+          "Copa Ganadores de Copa"
+      ],
+      correcta: 1
+  }
 ];
 
 
